@@ -1,0 +1,85 @@
+h1 {
+    color: rgb(31, 31, 210);
+    font-size: 36px;
+    text-align: center;
+}
+h2,
+h3 {
+    color: rgb(1, 1, 5);
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+button {
+    background-color: rgb(31, 31, 210);
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: rgb(98, 98, 205);
+}
+a{
+    color: rgb(31, 31, 210);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(1, 1, 10);
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 12px;
+}
+button {
+    margin-bottom: 16px;
+}
+form {
+    margin-top: 20px;
+    margin-inline-start: 12px;
+    margin-inline-end: 12px;
+}
+#hero {
+    background-color: white;
+    padding: 20px;
+}
+.highlight {
+    color: rgb(9, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.card {
+    background-color:white;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input:focus {
+    outline: none;
+    border-color: rgb(31, 31, 210);
+    background-color: rgb(240, 240, 255);
+}
+#hero img {
+    width: 260px;
+    border-radius: 16px;
+}
